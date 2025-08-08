@@ -1,0 +1,129 @@
+:root{
+    --backgroundColor:rgb(253, 245, 245);
+    --lift:rgb(255, 255, 255);
+    --accentColor: rgb(252, 145, 158);
+}
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: var(--backgroundColor);
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:var(--lift);
+    padding: 1%;
+}
+
+.navButton{
+   margin-left: 10px; 
+   padding: 1%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3px;
+}
+.navButton:hover{
+    cursor: pointer;
+    background-color:var(--accentColor);
+    border-radius: 0.5rem;
+}
+#trackFlow{
+    font-weight: bold;
+    margin-right: auto;
+    font-size: 1.2rem;
+}
+#trackFlow:hover{
+    background-color: var(--lift);
+}
+
+.projectList{
+    background-color: var(--lift);
+    margin: 3%;
+    padding: 1%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.projectName{
+    width: 100%;
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.projectName:hover{
+    background-color:var(--accentColor);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.taskList{
+     background-color: var(--lift);
+    margin: 3%;
+    padding: 1%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.taskName{
+    width: 100%;
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.taskName:hover{
+    background-color:var(--accentColor);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.talkToAi{
+    display: flex;
+    background-color: var(--lift);
+     margin: 3%;
+    padding: 1%;
+     border-radius: 0.5rem;
+     flex-wrap: wrap;
+     width: 40%;
+}
+
+.microphone{
+    display: flex;
+    width: 100%;
+    background-color: var(--lift);
+    padding: 3%;
+    margin: 3%;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.microphone:hover{
+    background-color: var(--accentColor);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
