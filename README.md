@@ -1,12 +1,14 @@
-# React + Vite
+**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Todo/Project tracker app powered by an AI interface
 
-Currently, two official plugins are available:
+**
+TrackFlow's UI is presently under development. 
+It is supposed to be a React Native application in future that is enabled which uses voice and text commands to interface to interact with the application. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Feature list (Under development)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ - Use natural language for creating, updating, fetching and deleting task data.
+ - Manually create, update, delete and visualize task/project data
+ - Manage tasks as sub-parts of projects.
+ - 
