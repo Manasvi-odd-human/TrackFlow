@@ -1,13 +1,12 @@
 ## Todo/Project tracker app powered by an AI interface
 
 TrackFlow's UI is presently under development. 
-It is supposed to be a React Native application (in future) powered by voice and text commands to interact with the application. 
+At present it's a fully functioning CLI based to do list app that uses NLP for instructions.
 
-## Feature list (Under development)
+## Feature list
 
  - Use natural language for creating, updating, fetching and deleting task data.
- - Manually create, update, delete and visualize task/project data
- - Manage tasks as sub-parts of projects.
- - Proper markdown editor built in and projects timelines can be made from the markdown text.
- - Support for connecting to external tools for bringing in data from outside.
- - Extremely practical UI for manual adjustments.
+ - Fully Local and private AI
+ - Uses Pandas dataframes so it's compatible for connecting with outside tools.
+ - Leverages OLLMA with function calling LLMs.
+
